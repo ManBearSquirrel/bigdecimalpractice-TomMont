@@ -81,16 +81,19 @@ public class Main
         System.out.println("TODO Starts Here");
         result = null;
 
-        //TODO result = ???
+        result = ten.add(ten);
         System.out.println("10 + 10 = " + result);
 
-        //TODO result = ???
+        result = ten.add(ten);
+        result = result.add(ten);
         System.out.println("10 + 10 + 10 = " + result);
 
-        //TODO result = ???
+        result = ten.multiply(ten);
+        result = result.multiply(five);
         System.out.println("10 * 10 * 5 = " + result);
 
-        //TODO result = ???
+        result = ten.multiply(five);
+        result = result.add(ten);
         System.out.println("10 + (10 * 5) = " + result);
 
     }
